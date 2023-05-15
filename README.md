@@ -16,4 +16,6 @@
 </ul>
 <h2>The Connection Of The Electronic Circuit</h2>
 <img src="https://raw.githubusercontent.com/Reem122/Smart-Home/main/Smart%20home%20circuit.jpg">
+<h2>IOT Dashboard</h2>
+<img src="https://raw.githubusercontent.com/Reem122/Smart-Home/main/IOT%20dashboard.png">
 
