@@ -14,3 +14,4 @@
   <li>LDR (to measure light intensity)</li>
   <li>Servo motor</li>
 </ul>
+<img src="https://raw.githubusercontent.com/Reem122/Smart-Home/main/Smart%20home%20circuit.jpg">
