@@ -36,7 +36,7 @@ char password[] = "password";
 char clientID[] = "ID";
 
 void setup() {
-	Serial.begin(9600);
+  Serial.begin(9600);
   Wire.begin(D1, D2); /* join i2c bus with SDA=D1 and SCL=D2 of NodeMCU */
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(D5, OUTPUT);
@@ -44,7 +44,7 @@ void setup() {
   pinMode(D7, OUTPUT);
   pinMode(ldr, INPUT);
   myservo.attach(D4, 500, 2400);
-	Cayenne.begin(username, password, clientID, ssid, wifiPassword);
+  Cayenne.begin(username, password, clientID, ssid, wifiPassword);
   
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password);
