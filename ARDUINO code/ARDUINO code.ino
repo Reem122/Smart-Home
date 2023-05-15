@@ -5,7 +5,6 @@
 #define DHTPIN 4
 #define gas 5
 #define flame 6
-#define ldr A0
 
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
@@ -17,7 +16,6 @@ void setup() {
   Serial.begin(9600);
   pinMode(gas, INPUT);
   pinMode(flame, INPUT); 
-  pinMode(ldr, INPUT);
   Serial.println(F("DHTxx test!"));
   dht.begin();
 }
